@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
+  <diagram name="Pagina-1" id="ZdIGEoHhY4ThY1vgVYZf">
+    <mxGraphModel dx="1002" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wVqkyYKNuR70vIRo1aej-7" value="Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="90" y="140" width="70" height="30" as="geometry">
+            <mxRectangle x="90" y="140" width="170" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-8" value="- xp: int&lt;div&gt;- health: int&lt;/div&gt;&lt;div&gt;- gold: int&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;currentWeapon:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fighting:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;monsterHealth:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;int&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;inventory:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;Array&amp;lt;String&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-7">
+          <mxGeometry y="26" width="170" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-7">
+          <mxGeometry y="140" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-10" value="+ goTown()&lt;div&gt;&lt;div&gt;+ goStore()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ goCave()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ fightSlime()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ fightBeast()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ fightDragon()&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ attack()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ dodge()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ buyHealth()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ buyWeapon()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ sellWeapon()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;+ restart()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ easterEgg()&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-7">
+          <mxGeometry y="148" width="170" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-12" value="UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="90" y="550" width="50" height="30" as="geometry">
+            <mxRectangle x="90" y="550" width="240" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-13" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;- button1: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- button2: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- button3: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- text: HTMLElement&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- locationImg: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- xpText: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- healthText: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- goldText: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- monsterStats: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- monsterName: HTMLElement&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- monsterHealthText: HTMLElement&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-12">
+          <mxGeometry y="26" width="240" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-12">
+          <mxGeometry y="200" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-15" value="&lt;div&gt;+ update(location: Location)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ displayMonsterStats(monster: Monster)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ updateStats()&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-12">
+          <mxGeometry y="208" width="240" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-16" value="&lt;b&gt;Weapon&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="355" y="140" width="90" height="30" as="geometry">
+            <mxRectangle x="355" y="140" width="140" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-17" value="- name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-16">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-18" value="- power: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-16">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-20" value="&lt;b&gt;Monster&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="355" y="370" width="90" height="30" as="geometry">
+            <mxRectangle x="355" y="370" width="140" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-22" value="&lt;div&gt;- name: String&lt;br&gt;&lt;/div&gt;- level: int&lt;div&gt;- health: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-20">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-23" value="&lt;b&gt;Location&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="355" y="240" width="90" height="30" as="geometry">
+            <mxRectangle x="355" y="240" width="210" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wVqkyYKNuR70vIRo1aej-24" value="- name: String&lt;div&gt;- buttontext: Array&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- buttonFunction: Array&amp;lt;Function&amp;gt;&lt;/div&gt;&lt;div&gt;- text: String&lt;/div&gt;&lt;div&gt;- img: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wVqkyYKNuR70vIRo1aej-23">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
